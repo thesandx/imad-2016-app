@@ -14,11 +14,11 @@ app.get('/article-one',function (req, res){
 });
 
 app.get('/article-two',function (req, res){
-  res.send('sandy you rocks 22222');
+  res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
 });
 
 app.get('/article-three',function (req, res){
-     res.send('sandy you rocks 33333');
+     res.sendFile(path.join(__dirname, 'ui', 'inarticle-three.html'));
 });
 
 
