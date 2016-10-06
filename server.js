@@ -20,11 +20,8 @@ title:'Article One | TheSandX',
          <p>
              This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
          </p>`
-    
-    
-    
-    
 };
+
 function createTemplate(data){
     var title= data.title;
     var date= data.date;
@@ -55,7 +52,7 @@ var htmlTemplate= `<html>
      </div>
      </div>
  </body>
-</html>`
+</html>`;
 return htmlTemplate;
 }
 app.get('/', function (req, res) {
