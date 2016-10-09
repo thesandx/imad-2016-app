@@ -77,7 +77,6 @@ app.get('/', function (req, res) {
 var counter = 0;
 
 app.get('/counter',function(req,res){
-    document.Write("Total number of hits on this page is: ");
     counter+=1;
     res.send(counter.toString());
 });
